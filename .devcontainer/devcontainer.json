@@ -10,11 +10,14 @@
 	"postCreateCommand": "npm install",
 
 	// Uncomment if you want to customize VS Code settings/extensions here
-	// "customizations": {
-	//     "vscode": {
-	//         "extensions": ["dbaeumer.vscode-eslint", "esbenp.prettier-vscode"]
-	//     }
-	// }
+	"customizations": {
+  	"vscode": {
+    	"extensions": [
+    	  "GitHub.copilot",
+    	  "GitHub.copilot-chat"
+    	]
+  		}
+	}
 
 	// Uncomment if you prefer root user inside the dev container.
 	// "remoteUser": "root"
